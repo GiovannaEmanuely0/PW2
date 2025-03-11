@@ -1,0 +1,48 @@
+body{
+    background-color: #b3b792;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.divisao_titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 30px;
+}
+.divisao_principal{
+    background-color: #809671;
+    height: 800px;
+    width: 50%;
+    padding: 10px;
+}
+.divisao_formulario{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 700px;
+    width: 98%;
+    padding: 5px;
+    border-radius: 40px 0;
+}
+.divisao_formulario form{
+    margin: 0 10%;
+}
+.input{
+    height: 30px;
+    width: 80%;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+.resultado{
+    font-size: 30px;
+    height: auto;
+    width: 80%;
+    background-color: #642a2a;
+}
