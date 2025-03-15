@@ -1,0 +1,58 @@
+body{
+    background-color: #3267b1;
+    font-size: 25px;
+    color: #fff;
+    font-family: century gothic;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    margin: 2%;
+}
+h1{
+    margin-right: 0;
+}
+.cabeca{
+    color: #f36f36;
+    display: inline-flex;
+    background-color: #f7d323;
+    width: 100%;
+}
+.secao{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    width: 100%;
+    font-weight: 600;
+}
+input{
+    height: 50px;
+    width: 200px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    margin: 5% 5%;
+}
+.butao{
+    background-color: #f36f36;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    transition: 1s;
+}
+.butao:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid #f36f36;
+    transition: 1s;
+}
+/* file de recuperar */
+
+.image{
+    margin: 1% 0;
+}
+.text{
+    text-align: center;
+    width: 80%;
+    margin: 0 10%;
+}
