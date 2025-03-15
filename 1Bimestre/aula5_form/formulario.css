@@ -1,0 +1,125 @@
+body{
+    background-color: #000;
+    /* background-image: linear-gradient(180deg, #000, #e2f26b); */
+    margin: 0;
+    padding: 0;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 25px;
+}
+.divisao_principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: red; */
+    height: 100%;
+    padding: 2%;
+    color: #e2f26b;
+}
+.divisao_titulo{
+    /* background-color: #e2f26b; */
+    width: 45%;
+    padding: 2%;
+}
+.divisao_formulario{
+    width: 45%;
+    background-color: #f2f2f2;
+    height: 100%;
+    padding: 2%;
+    border-radius: 20px;
+    color: #2b2b2b;
+}
+.form{
+    border-top: 2px solid #565656;
+}
+.nova_divisao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.input{
+    height: 30px;
+    width: 100%;
+    /* margin: 2% 0; */
+    padding: 1%;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 1px solid #565656;
+    cursor: pointer;
+}
+.input2{
+    height: 30px;
+    width: 30%;
+    padding: 1%;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 1px solid #565656;
+    cursor: pointer;
+}
+.butao{
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #a79bf2;
+    border: 1px solid #565656;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+.butao:hover{
+    border: 1px solid #565656;
+    background-color: #e2f26b;
+    transition: 1s;
+}
+
+/* css da pagina de recuperação */
+
+.resultado{
+    padding: 2%;
+}
+.nomes{
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    margin: 1%;
+    border: 1px solid #565656;
+    transition: 1s;
+}
+.nomes:hover{
+    background-color: #a79bf2;
+    transition: 1s;
+    cursor: pointer;
+}
+.name{
+    text-align: right;
+    width: 15%;
+}
+.primeira_secao{
+    padding: 2%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 1% 0;
+    border-radius: 15px;
+}
+.titulo h1{
+    color: #e2f26b;
+    font-size: 60px;
+    text-align: center;
+}
