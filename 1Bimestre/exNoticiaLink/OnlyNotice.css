@@ -1,0 +1,67 @@
+body{
+    background-color: #efeeec;
+    margin: 0;
+    padding: 0;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.image{
+    height: 600px;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+h1{
+    width: 50%;
+    text-align: center;
+    font-size: 45px;
+}
+h2{
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+}
+.texto{
+    width: 50%;
+    text-align: justify;
+    font-size: 25px;
+}
+.cabeca{
+    height: 70px;
+    width: 100%;
+    background-color: #000;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #efeeec;
+}
+li{
+    display: inline;
+    font-size: 25px;
+    margin: 15px;
+    /* transition: 0.5s; */
+    cursor: pointer;
+    font-weight: 600;
+}
+li:hover, .linki:hover{
+    color: #5cda5c;
+    border-bottom: 3px solid #5cda5c;
+    transition: 0.5s;
+}
+.linki{
+    text-decoration: none;
+    color: #efeeec;
+}

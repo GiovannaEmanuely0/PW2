@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #efeeec;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+.home{
+    height: 40px;
+    width: 40px;
+}
+.linke{
+    text-decoration: none;
+    color: #000;
+}
+h1{
+    margin: 0 5%;
+}
+h1:hover{
+    color: #6fbc4c;
+    transition: 1s;
+}
+.cabeca{
+    height: 70px;
+    width: 100%;
+    background-color: #000;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #efeeec;
+}
+li{
+    display: inline;
+    font-size: 25px;
+    margin: 15px;
+    /* transition: 0.5s; */
+    cursor: pointer;
+    font-weight: 600;
+}
+li:hover, .linki:hover{
+    color: #5cda5c;
+    border-bottom: 3px solid #5cda5c;
+    transition: 0.5s;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    border-top: 2px solid #131313;
+    width: 95%;
+    margin: 1% 2.5%;
+    padding: 2% 0;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 1%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#imagem{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    background-color: #131313;
+    border: 2px solid #656565;
+    color: #ffffff;
+    font-weight: 700;
+}
+button:hover{
+    background-color: #5cda5c;
+    border: 2px solid #000;
+    transition: 1s;
+    color: #000;
+}
+h2{
+    font-size: 18px;
+    font-weight: 900;
+} 
+.linki{
+    text-decoration: none;
+    color: #efeeec;
+}
