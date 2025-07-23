@@ -1,0 +1,100 @@
+body{
+    margin: 0%;
+}
+
+div.container{
+    width: 100%;
+    margin: 0%;
+    display: flex;
+}
+
+div.section1{
+    float: left;
+    width: 45%;
+    height: 100vh;
+    background-color: rgb(255, 250, 250);
+    margin: 0%;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+h1.titulo{
+    font-family: 'Libre Bodoni';
+    margin-bottom: -1%;
+    font-size: 40px;
+}
+
+p.desc{
+    margin-bottom: 5%;
+    font-size: 17px;
+    color: rgb(158, 155, 155);
+}
+
+form div.info{
+    text-align: start;
+    margin-left: 22%;
+    margin-bottom: 3%;
+}
+
+form div.info label{
+    font-size: 16px;
+}
+
+
+form div.info input{
+    border: solid 2px rgb(218, 218, 218);
+    background-color: rgb(255, 250, 250);
+    color: rgb(158, 155, 155);
+    padding-left: 4%;
+    padding-right: 29%;
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
+    font-size: 14px;
+    font-family: 'Poppins';
+    margin-top: 1.5%;
+}
+
+button{
+    padding-left: 21%;
+    padding-right: 21.5%;
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
+    margin-top: 1%;
+    margin-right: 6%;
+
+    background-color: black;
+    border: black;
+    color: white;
+    font-family: 'Poppins';
+}
+
+div.login{
+    margin-top: 2%;
+}
+
+div.login p{
+    display: inline;
+    color: rgb(158, 155, 155);
+}
+
+div.login a{
+    color: black;
+    text-decoration: none;
+}
+
+div.section2{
+    float: left;
+    height: 100vh;
+    width: 55%;
+    margin: 0%;
+    overflow: hidden;
+    font-family: 'Poppins';
+    filter: drop-shadow(-20px 0px 15px #e0e4e5);
+}
+
+img.Capa{
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 2%;
+    filter: drop-shadow(-20px 0px 10px #e0e4e5);
+}
