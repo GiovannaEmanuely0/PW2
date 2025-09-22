@@ -1,0 +1,127 @@
+body{
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/062/221/126/original/juliana-silveira-ponto-onibus.gif?1682615688);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;  
+    padding: 0;
+    font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    text-transform: uppercase;
+}
+.secao_personagem{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;  
+}
+.selecao-jogadores{
+    text-align: center;
+    margin: 1% 0;
+}
+.input{
+    height: 40px;
+    width: 100px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.secao_personagem .card{
+    height: 80%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    cursor: pointer;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 5px #000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.image{
+    height: 70%;
+    width: 70%;
+    object-fit: cover;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.image:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    object-fit: cover;
+    filter: drop-shadow(0 0 10px #fff);
+}
+.secao_personagem div h1{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.selecionados{
+    height: 100px;
+    width: 80%;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    align-items: center;
+    margin: 0 10%;
+}
+#numero{
+    font-size: 70px;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+.secao{
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.submit{
+    height: 50px;
+    width: 300px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0057c1;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.submit:hover{
+    border: 3px solid #ffffff;
+    transition: 0.3s;
+    background-color: #002451;
+}
+.card-form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+        padding: 1% 0;
+}
+
+.cardSelecionado{
+background-color: rgb(119, 255, 34);    
+color: black;
+}
+.titulo{
+    font-size: 60px;
+}
